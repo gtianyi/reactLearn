@@ -1,6 +1,7 @@
 import { MouseEvent } from "react";
 function ListGroup() {
     let items = ["NY", "SF", "TK"]
+    let selectedIndex = 0;
 
     // Event handler
     const handleClick = (event: MouseEvent) => console.log(event)
